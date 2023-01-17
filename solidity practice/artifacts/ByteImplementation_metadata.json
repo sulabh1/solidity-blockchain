@@ -6,19 +6,39 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newCount",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "loopingStr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returbyte",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -31,22 +51,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "getCount",
+				"name": "returnStr",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increaseCount",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -63,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity practice/constructor.sol": "ConstructorFunc"
+			"solidity practice/byte.sol": "ByteImplementation"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -77,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity practice/constructor.sol": {
-			"keccak256": "0xa845d4b034d5449936c97bd4d61e386daef60a7ff17584fcb1637e0b8e03f6ea",
+		"solidity practice/byte.sol": {
+			"keccak256": "0x59eabd547a6e6633369ef78f449c0504b38b9711ee47198e04440c270b1b1581",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://76514027fe63f3c2621306561ca7af3d667a7eaec21f5ad5a7067b8764e1d9ce",
-				"dweb:/ipfs/QmbAg7HLmNThQZ19GgwqhMDARKB7mDqWgcRnw2L3L8qPtH"
+				"bzz-raw://540fec4928d2e28d515269a5312bf05f1736dedd87f8a6072f894af5a846eff3",
+				"dweb:/ipfs/QmeusoPmTuRfM6WQgvTmM1VEP34bZnMmDL5MYEn73yi8D1"
 			]
 		}
 	},
