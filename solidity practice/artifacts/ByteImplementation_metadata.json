@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "returnLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/byte.sol": "ByteImplementation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/byte.sol": {
+			"keccak256": "0xd6427fe432c77527e1b3d73e4b95ad0ccaceb9cf83e12644c391ee26eae457fd",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a29efb572192bdcedab4fc4b1a6bd6d2eb203e4dfe985f96dc29aeb73c62cc9e",
+				"dweb:/ipfs/QmS3omrtijZpV4FtPJWkBFXQYYDMnXBL5ERHx2cvAZsWzG"
+			]
+		}
+	},
+	"version": 1
+}
