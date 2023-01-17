@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondName",
+						"type": "string"
+					}
+				],
+				"name": "compareTwoString",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/string.sol": "StringImplement"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/string.sol": {
+			"keccak256": "0x1222c6edd2b78f361217f6f94a8b547780c67a5b0106471e5f279d0bee9293f7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fb83b488f46260e0ccec924f61d4a588fd293ceffdf4a95c4e573bb6a66255cf",
+				"dweb:/ipfs/QmafNkqe7BUmaxTkb4Ndap3REZYq3spSVonfb8i5uTfHdy"
+			]
+		}
+	},
+	"version": 1
+}
