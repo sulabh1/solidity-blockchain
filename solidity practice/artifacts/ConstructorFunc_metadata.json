@@ -39,7 +39,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"solidity practice/constructor.sol": {
-			"keccak256": "0x8a790cb9999d1ffd9c9d82037bf5b59ec0ec7653b99644c72a2866877177bdf3",
+			"keccak256": "0xa845d4b034d5449936c97bd4d61e386daef60a7ff17584fcb1637e0b8e03f6ea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://387e3f5d5bfa3fe65ff7a0f8a5a42d394b0bc94430773daf1de5ae965269483c",
-				"dweb:/ipfs/QmXW3WMUeMdcva84UPQEV5N3xu2VjCdLTmvGhbq6FTPpEr"
+				"bzz-raw://76514027fe63f3c2621306561ca7af3d667a7eaec21f5ad5a7067b8764e1d9ce",
+				"dweb:/ipfs/QmbAg7HLmNThQZ19GgwqhMDARKB7mDqWgcRnw2L3L8qPtH"
 			]
 		}
 	},

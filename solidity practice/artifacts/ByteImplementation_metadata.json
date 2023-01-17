@@ -7,6 +7,37 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "loopingStr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returbyte",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "returnLength",
 				"outputs": [
 					{
@@ -15,7 +46,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -47,11 +91,11 @@
 	},
 	"sources": {
 		"solidity practice/byte.sol": {
-			"keccak256": "0xd6427fe432c77527e1b3d73e4b95ad0ccaceb9cf83e12644c391ee26eae457fd",
+			"keccak256": "0x59eabd547a6e6633369ef78f449c0504b38b9711ee47198e04440c270b1b1581",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a29efb572192bdcedab4fc4b1a6bd6d2eb203e4dfe985f96dc29aeb73c62cc9e",
-				"dweb:/ipfs/QmS3omrtijZpV4FtPJWkBFXQYYDMnXBL5ERHx2cvAZsWzG"
+				"bzz-raw://540fec4928d2e28d515269a5312bf05f1736dedd87f8a6072f894af5a846eff3",
+				"dweb:/ipfs/QmeusoPmTuRfM6WQgvTmM1VEP34bZnMmDL5MYEn73yi8D1"
 			]
 		}
 	},
