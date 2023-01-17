@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_num1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "checkMultiples",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/loops.sol": "LoopCheck"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/loops.sol": {
+			"keccak256": "0x648a39ae51e8f471a00b6930301a7c21c938c8d23309ef0495537214f7baa41b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6f6e4641d80ae93ba272b9bfede660944cb6596ab7f6bcd187fbf036eb836a5f",
+				"dweb:/ipfs/QmPLST6fcSRcrNj5egTkfZGUyumwZqr1pZV4ptNBU9Kmbh"
+			]
+		}
+	},
+	"version": 1
+}

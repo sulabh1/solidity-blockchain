@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "returnAgeWithName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/statevariables.sol": "StateVariables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/statevariables.sol": {
+			"keccak256": "0xa7095eb8b0175520bad8554ce7e98ef3534de32ea4d67e41a8e0cc3245e46790",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7d2baf2bea8337c7e5119e35d1c0641df8fd4e3370b91e47e7459d92d4e299c5",
+				"dweb:/ipfs/QmZrUFYZjDnVtE6jFyhhWCLGZzTeUxLjkUJ7dhdCBxAh4v"
+			]
+		}
+	},
+	"version": 1
+}

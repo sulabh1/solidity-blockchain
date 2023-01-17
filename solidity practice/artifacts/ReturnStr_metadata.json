@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "returnSender",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/variables.sol": "ReturnStr"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/variables.sol": {
+			"keccak256": "0x95b048f838f02687999b673202b4523402f41a59058d9512244e89b9ec8b722c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://09bf0fa36c0a17617735b329c5da9c22b8f1c565039b981fa77b797157477861",
+				"dweb:/ipfs/QmSgszZHJM2oCJx26tpizhfk9pdeGtEVe6rHXhWx7YjWaB"
+			]
+		}
+	},
+	"version": 1
+}
