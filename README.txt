@@ -68,6 +68,7 @@ bytes : can give us access to use various method on string as we cannot use meth
 
 Arrar: in delete length doesn't change it automatically add 0
 
-Enum: It looks like an object but without key value pair. Contains possibilities. Start index with 0.
+Enum: It looks like an object but without key value pair. Contains possibilities. Start index with 0. But it is a type declaration.eg enum Movie{GOOD, BETTER, BEST}
+struct: It look like an object but contains group of type. eg. struct Movie{uint id, string name}. Called as Movie("id", "name")
 
 
