@@ -26,3 +26,43 @@ Output from script will appear in remix terminal.
 Please note, require/import is supported in a limited manner for Remix supported modules.
 For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+
+
+Overall learning of solidity and blockchain
+
+
+
+Full node, light node, archive node in ethereum network
+Externally owned account->created while making transaction
+Contract account->created when deployed
+Decentralized autonomous organization
+Decentralized autonomous organization attack
+softfork hardfork
+
+tongue lake way give sentence curious shed habit phrase best second forget
+
+Abi => application or other smart contract communicate with smart contracts
+Bytecode code will be deployed in ethereum blockchain
+
+something.sol=>abi(abstract binary interface) + bytecode
+
+Solidity
+
+State variable is stored in contract storage
+It is expensive which mean takes a lot of gas
+A variable which is outside of a function or constructor is called state variable
+
+Local Variables:
+=> stored in the stack storage
+=> always stored in function or constructor
+=>string by default store in a contract storage that's why it give error, to avoid this use memory which will store in stack
+=> memory key cannot be used in a contract level
+
+In conclusion, avoid declaring state variables because it costs lots of gas. Local variables do not cost gas.
+
+
+Pure: neither changing any state variables nor reading state variables.
+View: can read the state variables but not write
+
+bytes : can give us access to use various method on string as we cannot use method on byte because it cost a lot of gas
+
