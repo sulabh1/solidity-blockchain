@@ -30,6 +30,8 @@ For unsupported modules, an error like this will be thrown: '<module_name> modul
 
 Overall learning of solidity and blockchain
 
+https://docs.google.com/document/d/18LAeYA5GfgZVO2RDsoLXQudARjTynBKGMxX378VFZQg/edit?usp=sharing
+
 
 
 Full node, light node, archive node in ethereum network
