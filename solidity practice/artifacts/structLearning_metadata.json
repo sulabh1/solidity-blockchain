@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/structs.sol": "structLearning"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/structs.sol": {
+			"keccak256": "0xad5a9e8210da0766b488c5a5f22eb820f132ca71231b567d820cce6c72a519e2",
+			"license": "GPL3.0",
+			"urls": [
+				"bzz-raw://265d2f62c2f339989ac141fde0714ca2fcebe06930ffe778a84a7b890ff75322",
+				"dweb:/ipfs/QmQoUpnXuxqMa7kpGUapLZj88V8BYdnnJJeXHAbBsRTgG3"
+			]
+		}
+	},
+	"version": 1
+}
