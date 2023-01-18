@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_grade",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "verifyAdmission",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/inheritance.sol": "student"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/inheritance.sol": {
+			"keccak256": "0x06a39b7b46e754aaf8af08636f7257a1a22b213766271d786e3a5f128f4be79f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://de7a38db9671ba85002c6a0a30442f3900ef77c342c3c8488e2e135525ef5b38",
+				"dweb:/ipfs/QmNdMu97WBaQihTA7aVfSLRGNbcrsJcwwEhYrsA5gra4SR"
+			]
+		}
+	},
+	"version": 1
+}
