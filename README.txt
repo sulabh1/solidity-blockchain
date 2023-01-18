@@ -66,3 +66,8 @@ View: can read the state variables but not write
 
 bytes : can give us access to use various method on string as we cannot use method on byte because it cost a lot of gas
 
+Arrar: in delete length doesn't change it automatically add 0
+
+Enum: It looks like an object but without key value pair. Contains possibilities. Start index with 0.
+
+

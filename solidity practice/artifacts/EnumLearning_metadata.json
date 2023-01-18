@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSize",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity practice/enums.sol": "EnumLearning"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity practice/enums.sol": {
+			"keccak256": "0xa3ec86fd5089bb0e7125d3723bc7cd9c14e20446418258a48a6f2043adba990f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://718b28204a63f3b027168d9da0506870cd6c4406352823a41f482bd961f98750",
+				"dweb:/ipfs/QmWsnB5vpJ8knv5v2zcJxpnBp76wxqPtZEgxCpiVCP2oCz"
+			]
+		}
+	},
+	"version": 1
+}
