@@ -6,8 +6,62 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "checkGrade",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_grade",
+						"type": "uint256"
+					}
+				],
 				"name": "getGrade",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getGrades",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,37 +73,29 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
+				"inputs": [],
+				"name": "getMsgSenderAddress",
+				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "myDetail",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValueOfMsgsender",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "rollNo",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "grade",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -81,11 +127,11 @@
 	},
 	"sources": {
 		"solidity practice/nestedMapping.sol": {
-			"keccak256": "0x21087c6e659457adcc8fd915091644b1a18b75f9d7de9255d96e592b684ed244",
+			"keccak256": "0xf027a08a29455572ec1fdad48a948aba4ad5517bb9b92061566327ed3d8b87eb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fff43fe46ca7921a481493dbf779edca19d28a25e92b0ea59cd300b87ed7481a",
-				"dweb:/ipfs/QmcHHxZGPFs27SK4b6PKcFfayF4GRqtTmwByRbe2b6Goid"
+				"bzz-raw://86285ad104a68fe195c20d2366c0d4a60247a2a6d02edf00fde686a164dc4b70",
+				"dweb:/ipfs/QmWTGLBYhY6TbTepntuzyX16g9p87DV18WqfR5dk3gdMSe"
 			]
 		}
 	},

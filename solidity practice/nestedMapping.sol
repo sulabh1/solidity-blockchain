@@ -10,13 +10,36 @@ contract NestedMap{
         uint grade;
     }
     MyInfo myInfo;
-    mapping(string=> mapping(address=>MyInfo)) public myDetail;
 
-    function getGrade(string memory  _name, uint _roll, uint _grade) private returns(uint){
+    uint[] interger;
+    string[] str;
+    mapping(string=> mapping(address=>MyInfo)) private myDetail;
+
+    function getGrade(string memory  _name, uint _roll, uint _grade) public returns(uint){
         myDetail[_name][msg.sender]=MyInfo(_name, _roll, _grade);
     }
 
-    function getGrade() public view returns(uint){
-        return  myInfo.grade;
+    function getGrades(string memory _name) public view returns(uint){
+    //    if(myDetail[_name][msg.sender].grade==)
+
+    return myDetail[_name][msg.sender].grade;
     }
+
+    function getValueOfMsgsender() payable public returns(uint){
+        return msg.value;
+    } 
+
+    function getMsgSenderAddress() view public returns(address){
+        return msg.sender;
+    }
+
+    function checkGrade(string memory _name) view public returns(string memory){
+        if(myDetail[_name][msg.sender].grade>=40){
+            return "This person can get admission to our school";
+        }else{
+            return "Sorry we cannot proceed further. Better luck next time!!!!";
+        }
+    }
+
+
 }
