@@ -30,6 +30,8 @@ For unsupported modules, an error like this will be thrown: '<module_name> modul
 
 Overall learning of solidity and blockchain
 
+https://docs.google.com/document/d/18LAeYA5GfgZVO2RDsoLXQudARjTynBKGMxX378VFZQg/edit?usp=sharing
+
 
 
 Full node, light node, archive node in ethereum network
@@ -68,6 +70,9 @@ bytes : can give us access to use various method on string as we cannot use meth
 
 Arrar: in delete length doesn't change it automatically add 0
 
-Enum: It looks like an object but without key value pair. Contains possibilities. Start index with 0.
+
+Enum: It looks like an object but without key value pair. Contains possibilities. Start index with 0. But it is a type declaration.eg enum Movie{GOOD, BETTER, BEST}
+struct: It look like an object but contains group of type. eg. struct Movie{uint id, string name}. Called as Movie("id", "name")
+
 
 

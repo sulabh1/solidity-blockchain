@@ -54,11 +54,13 @@
 	},
 	"sources": {
 		"solidity practice/structs.sol": {
-			"keccak256": "0xad5a9e8210da0766b488c5a5f22eb820f132ca71231b567d820cce6c72a519e2",
-			"license": "GPL3.0",
+
+			"keccak256": "0x5f0270dfed55695e4e5a2ad68ed164da0fb44b289c7ffb1453adbe0cb15ec0c8",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://265d2f62c2f339989ac141fde0714ca2fcebe06930ffe778a84a7b890ff75322",
-				"dweb:/ipfs/QmQoUpnXuxqMa7kpGUapLZj88V8BYdnnJJeXHAbBsRTgG3"
+				"bzz-raw://39da1bdd159a3d4f069d79cdd86d1c8363d55ca956fa066aa372e39244d01498",
+				"dweb:/ipfs/QmXbx2sJ5gbkjApjZsrx1vtWYpVMgWWBon31GtZWbnFwgT"
+
 			]
 		}
 	},
